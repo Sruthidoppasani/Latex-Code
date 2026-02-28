@@ -1,1 +1,160 @@
 # Latex-Code
+
+\documentclass[10pt,a4paper]{article}
+
+% ---------- Packages ----------
+\usepackage[a4paper,margin=0.7in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+
+\pagenumbering{gobble}
+\setlength{\columnsep}{0.6cm}
+
+% ---------- Section Style ----------
+\titleformat{\section}
+{\large\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+\setlist[itemize]{leftmargin=*,noitemsep}
+
+% ---------- Document ----------
+\begin{document}
+
+% ---------- Header ----------
+\begin{center}
+{\LARGE \textbf{Your Name}}\\
+\vspace{4pt}
+\textbf{AI Engineer}-- Eluru, Andhra Pradesh\\
+\vspace{4pt}
+rohan.verma@email.com | +91 9123456XXX | 
+linkedin.com/in/your id | github.com/your id
+\end{center}
+
+\vspace{6pt}
+
+\begin{multicols}{2}
+
+% ================= LEFT SIDE =================
+
+\section*{Objective}
+Aspiring Computer Science student passionate about Artificial Intelligence, Machine Learning, and Web Development seeking opportunities to develop scalable solutions and contribute to innovative software projects.
+
+\section*{About Me}
+Dedicated technology enthusiast with strong foundations in Data Structures, Python programming, and software development principles. Interested in solving real-world problems using AI-driven approaches and collaborative teamwork.
+
+\section*{Projects}
+
+\textbf{Plant Disease Detection System}
+\begin{itemize}
+\item Developed CNN-based model achieving 91\% accuracy.
+\item Implemented image preprocessing and augmentation techniques.
+\item Built Flask web application for live prediction.
+\end{itemize}
+
+\textbf{Smart Library Web Application}
+\begin{itemize}
+\item Designed responsive interface using HTML, CSS, JavaScript.
+\item Implemented book search and management modules.
+\item Improved usability and navigation efficiency.
+\end{itemize}
+
+\textbf{AI Chat Assistant}
+\begin{itemize}
+\item Built NLP-based chatbot using Python APIs.
+\item Automated responses and improved user interaction flow.
+\end{itemize}
+
+\section*{Internships}
+
+\textbf{AI \& ML Intern — FutureTech Labs}
+\begin{itemize}
+\item Built predictive models using supervised learning algorithms.
+\item Performed feature engineering and model evaluation.
+\item Collaborated using Agile development practices.
+\end{itemize}
+
+\textbf{Web Developer Intern — CodeMatrix}
+\begin{itemize}
+\item Developed responsive UI components using React.js.
+\item Optimized performance and reduced load time.
+\end{itemize}
+
+\section*{Certifications}
+\begin{itemize}
+\item Machine Learning Certification
+\item Python Programming Professional
+\item Data Structures and Algorithms
+\item Cloud Computing Fundamentals
+\item UI/UX Design Virtual Internship
+\end{itemize}
+
+\columnbreak
+
+% ================= RIGHT SIDE =================
+
+\section*{Personal Details}
+Date of Birth: 18 March 2006\\
+Languages Known: English, Hindi\\
+Blood Group: B+\\
+Location: Andhra Pradhesh, India
+
+\section*{Education}
+\textbf{Bachelor of Technology — Computer Science}\\
+Global Institute of Technology\\
+CGPA: 8.6 / 10
+
+\section*{Technical Skills}
+
+\textbf{Programming}
+\begin{itemize}
+\item Python, Java, C++
+\end{itemize}
+
+\textbf{Web Technologies}
+\begin{itemize}
+\item HTML, CSS, JavaScript, React.js, Flask
+\end{itemize}
+
+\textbf{Machine Learning}
+\begin{itemize}
+\item TensorFlow, Scikit-learn, Computer Vision, NLP
+\end{itemize}
+
+\textbf{Tools}
+\begin{itemize}
+\item Git, GitHub, VS Code, Linux, REST APIs
+\end{itemize}
+
+\section*{Soft Skills}
+\begin{itemize}
+\item Problem Solving
+\item Analytical Thinking
+\item Communication Skills
+\item Time Management
+\item Team Collaboration
+\item Adaptability
+\end{itemize}
+
+\section*{Workshops}
+\begin{itemize}
+\item Data Science Bootcamp
+\item Full Stack Development Workshop
+\item AI Automation Training
+\item Software Engineering Seminar
+\end{itemize}
+
+\section*{Achievements}
+\begin{itemize}
+\item Winner — National Coding Hackathon
+\item Best Project Award — Tech Symposium
+\item Academic Excellence Recognition
+\end{itemize}
+
+\end{multicols}
+
+\end{document}
